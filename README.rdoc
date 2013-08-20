@@ -1,5 +1,7 @@
 == Paranoid
 
+Using gem https://github.com/goncalossilva/acts_as_paranoid 
+
 1. clone the code 
        git clone https://github.com/ankit8898/paranoid.git
 
