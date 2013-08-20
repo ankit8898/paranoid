@@ -1,25 +1,25 @@
 == Paranoid
 
 1. clone the code 
-       <tt>git clone https://github.com/ankit8898/paranoid.git</tt> 
+       git clone https://github.com/ankit8898/paranoid.git
 
 2. bundle it
-       <tt>bundle install</tt> 
+       bundle install
 
 3. create db
-       <tt>bundle exec rake db:create</tt> 
+       bundle exec rake db:create
 
 4. run migrations
-       <tt>bundle exec rake db:migrate</tt> 
+       bundle exec rake db:migrate
 
 5. run seeder for fake data
-       <tt>bundle exec rake db:seed</tt> 
+       bundle exec rake db:seed
 
 6. run server
-       <tt>bundle exec rails s</tt> 
+       bundle exec rails s
 
 7. access via
-      <tt>http://localhost:3000></tt>
+      http://localhost:3000>
 
 8. Now notice every Account number has a user listed next to it.  Delete the user from botton and you
    will still see it with account number.
